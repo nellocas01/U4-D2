@@ -5,11 +5,10 @@ public class Wind {
 	double credito;
 	String chiamate;
 	
-	public Wind() {
-		this.numerocell = 123456789;
-		this.credito = 7.99;
-		this.chiamate = listststs;
-		
+	public Wind(int numerocell, double credito, String chiamate) {
+		this.numerocell = numerocell;
+		this.credito = credito;
+		this.chiamate = chiamate;
 	}
 	
 	
